@@ -1,0 +1,57 @@
+.prev{ display: block; width: 31px; height: 31px; position: absolute; left: -40px; top: 120px; z-index: 10;}
+.prev span{display: block; width: 31px; height: 31px; background: url(../images/prev.png) left top no-repeat;}
+.next{ display: block; width: 31px; height: 31px; position: absolute; right: -80px; top: 120px; z-index: 10;}
+.next span{display: block; width: 31px; height: 31px; background: url(../images/next.png) left bottom no-repeat;}
+
+.slider1_wrapper{position: relative; margin-top: 15px;}
+.slider1{ min-height: 279px; margin-left: -5px;}
+.slider1 ul li{ float:left; width:199px; height: 279px; margin:0 5px; background: url(../images/slider.png);border-radius:10px; -moz-border-radius:10px; -webkit-border-radius:10px; position: relative;}
+
+.slider2{ float:left; width:199px; height: 279px;margin-right: 9px; margin-bottom: 15px; background: url(../images/slider.png);border-radius:10px; -moz-border-radius:10px; -webkit-border-radius:10px; position: relative;}
+.slider2.last{margin-right: 0;}
+
+.slider{text-decoration: none; display: block; width:199px; height: 279px; overflow: hidden;}
+.slider .img{width: 179px; height: 218px; position: relative; overflow: hidden; margin-left: 10px; margin-top: 10px;}
+.slider .txt{float: left; padding-left: 10px; padding-top: 10px;}
+.slider .txt1{color: #594d46; font-family: 'Open Sans'; font-weight: 400; font-size: 16px; line-height: 16px; text-decoration: none;}
+.slider.woman .txt1{color: #d23a4c;}
+.slider .txt2{color: #b0b0b0; font-size: 12px; line-height: 15px; text-decoration: none;}
+.slider .over1{width: 28px; height: 26px; background: url(../images/heart1.png) 0 0 no-repeat; float: right; margin-right: 12px; margin-top: 12px;}
+.slider:hover .txt1{text-decoration: underline;}
+
+.splash {width: 865px; position: relative; padding-left: 80px;}
+
+.mainpanel {background-color: #eee; width: 100%}
+
+.navbar-brand {
+ float: none;
+}
+
+.navbar-brand > img {width: 64px; padding: 4px; }
+
+.datefield { 
+    display: inline; 
+    padding: 0.3em; 
+    border: inset 1px #CCC; 
+    background: #FFF; 
+    border-radius: 4px;
+    color: #666;
+}
+
+.datefield * { 
+    display: inline-block;
+}
+
+.datefield input { 
+    width: 2.5em;
+    height: 34px;
+    padding: 0 0.4em; 
+    border: none; 
+    font-size: 100%; 
+    background: none;
+    color: #000;            
+}
+
+.datefield input#year { width:3.5em; }
+.datefield input:focus { outline:none; }
+
